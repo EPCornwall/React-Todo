@@ -1,0 +1,16 @@
+
+.done{
+    text-decoration-line: line-through;
+}
+.item{
+    display:flex;
+    background-color: grey;
+    padding: 3%;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}

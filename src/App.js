@@ -63,13 +63,15 @@ clearDone = () =>{
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
+        <div >
         <h2>Welcome to your Todo App!</h2>
-        <TodoForm addItem={this.addItem} />
-        <TodoList 
-         todo={this.state.todo}
-        toggleDone={this.toggleDone}
-        clearDone={this.clearDone} />
+          <TodoForm addItem={this.addItem} />
+          <TodoList 
+           todo={this.state.todo}
+          toggleDone={this.toggleDone}
+          clearDone={this.clearDone} />
+        </div>
       </div>
     );
   }
